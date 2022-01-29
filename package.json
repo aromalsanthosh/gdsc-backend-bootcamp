@@ -1,6 +1,14 @@
-{
+{ 
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "express": "^4.17.2",
     "express-handlebars": "^6.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
   }
 }
